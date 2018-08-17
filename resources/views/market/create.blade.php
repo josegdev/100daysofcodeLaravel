@@ -1,16 +1,14 @@
-<html>
-<head>
-    <title></title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+@extends('layouts.app')
 
-</head>
-<body>
-<div class="form-group">
-    <div class="container">
-        <label for="nombre"> Nombre: </label>
-        <input type="text" class="form-control" name="nombre">
-    </div>
+@section('title','Crear Producto')
 
-</div>
-</body>
-</html>
+@section('content')
+    <form class="form-group" method="POST" action="/producto">
+        @csrf
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" class="form-control" name="nombre">
+        </div>
+        <button type="submit" class="btn btn-primary"> Guardar </button>
+    </form>
+@endsection
