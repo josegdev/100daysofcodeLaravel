@@ -18,7 +18,7 @@ https://www.youtube.com/watch?v=A9hdsSDHxW4&list=PLIddmSRJEJ0sxS-RmqdRMlkyWOQWvE
 https://medium.com/@sorravitbunjongpean/using-phpstorm-with-laravel-with-autocompletion-ef73c4d5a740 - Mejorar phpstorm
 
 
-#Dia 3
+# Dia 3
 Plantillas blade
 
 Recurso utilizados: 
