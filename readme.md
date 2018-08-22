@@ -32,7 +32,7 @@ https://www.youtube.com/watch?v=ZeLa3tMhGoE - CRUD
 
 
 # Dia 5
- Profundizando acerca del CRUD y viendo slugs en las url.
+ Profundizando acerca del CRUD, carga de archivos en el servidor y viendo slugs en las url.
  
  Recursos utilizados.
  https://www.youtube.com/watch?v=XVFdBTOFtDc - SLUGS
