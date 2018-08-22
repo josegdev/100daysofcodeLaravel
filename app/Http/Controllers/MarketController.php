@@ -3,6 +3,7 @@
 namespace Market\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Market\Articulo;
 
 class MarketController extends Controller
 {
@@ -13,7 +14,8 @@ class MarketController extends Controller
      */
     public function index()
     {
-        //
+        $Articulos = Articulo::all();
+        return view('market.articulos', compact('Articulos'));
     }
 
     /**
@@ -34,7 +36,10 @@ class MarketController extends Controller
      */
     public function store(Request $request)
     {
-        return $request->nombre;
+        $Articulo = new Articulo();
+        $Articulo->nombre = $request->nombre;
+        $Articulo->save();
+        return 'saved :)';
     }
 
     /**

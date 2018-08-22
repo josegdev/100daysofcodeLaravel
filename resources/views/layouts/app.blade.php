@@ -5,6 +5,9 @@
 
 </head>
 <body>
+<nav class="navbar navbar-dark bg-dark">
+    <a href="#" class="navbar-brand">Articulos</a>
+</nav>
         @yield('content')
 </body>
 </html>
