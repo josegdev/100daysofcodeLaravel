@@ -21,5 +21,11 @@ https://medium.com/@sorravitbunjongpean/using-phpstorm-with-laravel-with-autocom
 # Dia 3
 Plantillas blade
 
-Recurso utilizados: 
+Recursos utilizados: 
 https://www.youtube.com/watch?v=TLQsb_PoDpQ - Tutorial plantillas Blade en Laravel
+
+# Día 4
+Generacion de modelos, conexión con base de datos, CRUD.
+
+Recursos utilizados: 
+https://www.youtube.com/watch?v=ZeLa3tMhGoE - CRUD
