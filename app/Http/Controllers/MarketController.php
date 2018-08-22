@@ -36,8 +36,14 @@ class MarketController extends Controller
      */
     public function store(Request $request)
     {
+       if ($request->hasFile('imagen')){
+           $file = $request->file('imagen');
+           $name = time().$file->getClientOriginalName();
+           $file->move(public_path().'/images/',$name);
+       }
         $Articulo = new Articulo();
         $Articulo->nombre = $request->nombre;
+        $Articulo->imagen = $name;
         $Articulo->save();
         return 'saved :)';
     }
@@ -50,7 +56,7 @@ class MarketController extends Controller
      */
     public function show($id)
     {
-        //
+        return "hola como estas";
     }
 
     /**

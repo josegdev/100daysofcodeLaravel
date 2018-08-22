@@ -16,11 +16,14 @@
         {{$articulo->nombre}}
     </div>
     <div class="card-body">
+        @if ($articulo->imagen)
+            <img src="images/{{$articulo->imagen}}" width="200px" height="200px">
+        @endif
         <h5 class="card-title">Special title treatment</h5>
         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a href="/producto/{{$articulo->id}}" class="btn btn-primary">Go somewhere</a>
     </div>
-</div>
+            </div>
             </div>
     @endforeach
     </div>

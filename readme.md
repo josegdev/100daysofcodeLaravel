@@ -29,3 +29,10 @@ Generacion de modelos, conexión con base de datos, CRUD.
 
 Recursos utilizados: 
 https://www.youtube.com/watch?v=ZeLa3tMhGoE - CRUD
+
+
+# Dia 5
+ Profundizando acerca del CRUD y viendo slugs en las url.
+ 
+ Recursos utilizados.
+ https://www.youtube.com/watch?v=XVFdBTOFtDc - SLUGS
